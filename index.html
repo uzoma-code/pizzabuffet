@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pizza Buffet — We bring the pizza party to you! Book birthday party catering with a fun pizza-building cart for your home." />
+  <title>Pizza Buffet — Birthday Pizza Party Catering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <span class="logo-icon">🍕</span>
+        <span class="logo-text">Pizza Buffet</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#deals">Local Deals</a></li>
+        <li><a href="#book" class="btn btn-small">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <p class="hero-tag">Birthday party catering, delivered to your door ✨</p>
+        <h1>Your Pizza Party,<br />Our Rolling Cart</h1>
+        <p class="hero-sub">
+          Like your favorite frozen yogurt bar — but for pizza! We roll up to your home with everything you need for a magical pizza-building birthday party.
+        </p>
+        <div class="hero-actions">
+          <a href="#book" class="btn btn-primary">Book Your Party</a>
+          <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
+        </div>
+        <div class="hero-badges">
+          <span class="badge">🎂 Perfect for birthdays</span>
+          <span class="badge">👩‍👧 Easy to book</span>
+          <span class="badge">🏠 We come to you</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Simple & Sweet</span>
+          <h2>How It Works</h2>
+          <p>Three easy steps to the cutest pizza party ever.</p>
+        </div>
+        <div class="steps">
+          <article class="step-card">
+            <div class="step-number">1</div>
+            <div class="step-icon">📅</div>
+            <h3>Pick Your Package</h3>
+            <p>Choose a birthday party size that fits your guest list — from intimate gatherings to big celebrations.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-number">2</div>
+            <div class="step-icon">🧀</div>
+            <h3>Customize Your Cart</h3>
+            <p>Select up to 6 toppings and your dough options. Your cart arrives stocked exactly how you want it!</p>
+          </article>
+          <article class="step-card">
+            <div class="step-number">3</div>
+            <div class="step-icon">🛒</div>
+            <h3>We Roll Up & Party!</h3>
+            <p>Our pizza cart pulls up to your address. Guests build their own pizzas — fun, fresh, and fuss-free.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages -->
+    <section id="packages" class="section packages">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Party Packages</span>
+          <h2>Choose Your Celebration</h2>
+          <p>Every package includes our mobile pizza cart, dough, sauce, cheese, and your chosen toppings.</p>
+        </div>
+        <div class="package-grid">
+          <article class="package-card" data-package="little-slice" data-price="149">
+            <div class="package-ribbon">Cozy</div>
+            <h3>Little Slice</h3>
+            <p class="package-guests">Up to 8 guests</p>
+            <p class="package-price"><span>$</span>149</p>
+            <ul class="package-features">
+              <li>Mobile pizza cart setup</li>
+              <li>2 hours of party time</li>
+              <li>Up to 6 custom toppings</li>
+              <li>Party napkins & plates</li>
+            </ul>
+            <button type="button" class="btn btn-outline select-package">Select Package</button>
+          </article>
+          <article class="package-card featured" data-package="birthday-bash" data-price="229">
+            <div class="package-ribbon popular">Most Loved</div>
+            <h3>Birthday Bash</h3>
+            <p class="package-guests">Up to 15 guests</p>
+            <p class="package-price"><span>$</span>229</p>
+            <ul class="package-features">
+              <li>Everything in Little Slice</li>
+              <li>3 hours of party time</li>
+              <li>Birthday banner included</li>
+              <li>Extra cheese upgrade</li>
+            </ul>
+            <button type="button" class="btn btn-primary select-package">Select Package</button>
+          </article>
+          <article class="package-card" data-package="pizza-palooza" data-price="349">
+            <div class="package-ribbon">Grand</div>
+            <h3>Pizza Palooza</h3>
+            <p class="package-guests">Up to 25 guests</p>
+            <p class="package-price"><span>$</span>349</p>
+            <ul class="package-features">
+              <li>Everything in Birthday Bash</li>
+              <li>4 hours of party time</li>
+              <li>Second dough option free</li>
+              <li>Personalized party sign</li>
+            </ul>
+            <button type="button" class="btn btn-outline select-package">Select Package</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Party Memories</span>
+          <h2>Photo Gallery</h2>
+          <p>A peek at the magic we bring to birthday celebrations near you.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item--large">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80" alt="Fresh pizza being prepared at a home party" loading="lazy" />
+            <figcaption>Build-your-own pizza fun</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80" alt="Colorful pizzas with toppings" loading="lazy" />
+            <figcaption>Colorful topping spreads</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80" alt="Kids enjoying pizza at a birthday party" loading="lazy" />
+            <figcaption>Happy birthday smiles</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1604382892930-dbbbac8382a5?w=600&q=80" alt="Margherita pizza fresh from the oven" loading="lazy" />
+            <figcaption>Fresh from the cart</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1594007658522-0267d8b55040?w=600&q=80" alt="Birthday party table setup with pizza" loading="lazy" />
+            <figcaption>Sweet party setups</figcaption>
+          </figure>
+          <figure class="gallery-item gallery-item--wide">
+            <img src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=800&q=80" alt="Family gathering around pizza" loading="lazy" />
+            <figcaption>We roll up, you party!</figcaption>
+          </figure>
+        </div>
+        <p class="gallery-cta"><a href="#book" class="btn btn-primary">Book Your Own Party</a></p>
+      </div>
+    </section>
+
+    <!-- Local Deals -->
+    <section id="deals" class="section deals">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Near You</span>
+          <h2>Local Deals</h2>
+          <p>Sweet savings for parties in your neighborhood.</p>
+        </div>
+        <div class="deals-grid">
+          <article class="deal-card">
+            <span class="deal-badge">Save $30</span>
+            <h3>Weekday Wonder</h3>
+            <p>Book any Monday–Thursday party and save $30. Perfect for after-school celebrations!</p>
+            <code class="deal-code">WEEKDAY30</code>
+          </article>
+          <article class="deal-card">
+            <span class="deal-badge">15% Off</span>
+            <h3>Neighborhood Friends</h3>
+            <p>Live within 5 miles of another Pizza Buffet booking this month? You both get 15% off!</p>
+            <code class="deal-code">NEIGHBOR15</code>
+          </article>
+          <article class="deal-card highlight">
+            <span class="deal-badge">Free Treat</span>
+            <h3>Birthday Month Special</h3>
+            <p>Celebrating in your birthday month? Get a free garlic knots pan added to your party cart!</p>
+            <code class="deal-code">BDAYFREE</code>
+          </article>
+        </div>
+        <p class="deals-note">Enter a deal code when you book below — we'll apply it to your confirmation!</p>
+      </div>
+    </section>
+
+    <!-- Booking -->
+    <section id="book" class="section booking">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Let's Party!</span>
+          <h2>Book Your Pizza Party</h2>
+          <p>Fill in your details, pick your toppings, and we'll handle the rest.</p>
+        </div>
+
+        <form id="booking-form" class="booking-form" novalidate>
+          <!-- Step indicators -->
+          <div class="form-steps">
+            <div class="form-step active" data-step="1">
+              <span class="form-step-num">1</span>
+              <span>Your Info</span>
+            </div>
+            <div class="form-step" data-step="2">
+              <span class="form-step-num">2</span>
+              <span>Customize</span>
+            </div>
+            <div class="form-step" data-step="3">
+              <span class="form-step-num">3</span>
+              <span>Review</span>
+            </div>
+            <div class="form-step" data-step="4">
+              <span class="form-step-num">4</span>
+              <span>Payment</span>
+            </div>
+          </div>
+
+          <!-- Step 1: Contact & Address -->
+          <div class="form-panel active" data-panel="1">
+            <h3 class="form-panel-title">Tell Us About Your Party</h3>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Sarah Johnson" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="sarah@email.com" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" required />
+              </div>
+              <div class="form-group">
+                <label for="party-date">Party Date</label>
+                <input type="date" id="party-date" name="partyDate" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="package-select">Party Package</label>
+              <select id="package-select" name="package" required>
+                <option value="">Choose a package...</option>
+                <option value="little-slice" data-price="149">Little Slice — Up to 8 guests ($149)</option>
+                <option value="birthday-bash" data-price="229">Birthday Bash — Up to 15 guests ($229)</option>
+                <option value="pizza-palooza" data-price="349">Pizza Palooza — Up to 25 guests ($349)</option>
+              </select>
+            </div>
+
+            <h4 class="form-subtitle">Delivery Address</h4>
+            <div class="form-group">
+              <label for="street">Street Address</label>
+              <input type="text" id="street" name="street" placeholder="123 Maple Lane" required />
+            </div>
+            <div class="form-row three-col">
+              <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" placeholder="Portland" required />
+              </div>
+              <div class="form-group">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="OR" required maxlength="2" />
+              </div>
+              <div class="form-group">
+                <label for="zip">ZIP Code</label>
+                <input type="text" id="zip" name="zip" placeholder="97201" required pattern="[0-9]{5}" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="deal-code">Deal Code <span class="optional">(optional)</span></label>
+              <input type="text" id="deal-code" name="dealCode" placeholder="e.g. WEEKDAY30" />
+            </div>
+
+            <button type="button" class="btn btn-primary next-step">Continue to Customize →</button>
+          </div>
+
+          <!-- Step 2: Customize Cart -->
+          <div class="form-panel" data-panel="2">
+            <h3 class="form-panel-title">Customize Your Pizza Cart</h3>
+            <p class="form-hint">Choose your dough and up to <strong>6 toppings</strong> for your party cart.</p>
+
+            <div class="cart-preview" id="cart-preview" aria-live="polite">
+              <div class="cart-preview-header">
+                <span class="cart-preview-icon">🛒</span>
+                <span>Your Party Cart</span>
+              </div>
+              <div class="cart-preview-body" id="cart-preview-body">
+                <p class="cart-preview-empty">Tap ingredients below to fill your cart!</p>
+              </div>
+            </div>
+
+            <h4 class="form-subtitle">Dough Options</h4>
+            <div class="ingredient-grid dough-options">
+              <label class="ingredient-card">
+                <input type="radio" name="dough" value="classic-flour" checked />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="classic-flour"></span>
+                  <span class="ingredient-name">Classic Flour</span>
+                </span>
+              </label>
+              <label class="ingredient-card">
+                <input type="radio" name="dough" value="gluten-free" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="gluten-free"></span>
+                  <span class="ingredient-name">Gluten-Free</span>
+                </span>
+              </label>
+              <label class="ingredient-card">
+                <input type="radio" name="dough" value="both" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="both"></span>
+                  <span class="ingredient-name">Both Options</span>
+                </span>
+              </label>
+            </div>
+
+            <h4 class="form-subtitle">Cheese Selection</h4>
+            <div class="ingredient-grid cheese-options">
+              <label class="ingredient-card">
+                <input type="checkbox" name="cheese" value="mozzarella" checked />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="mozzarella"></span>
+                  <span class="ingredient-name">Mozzarella</span>
+                </span>
+              </label>
+              <label class="ingredient-card">
+                <input type="checkbox" name="cheese" value="cheddar" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="cheddar"></span>
+                  <span class="ingredient-name">Cheddar</span>
+                </span>
+              </label>
+              <label class="ingredient-card">
+                <input type="checkbox" name="cheese" value="parmesan" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="parmesan"></span>
+                  <span class="ingredient-name">Parmesan</span>
+                </span>
+              </label>
+              <label class="ingredient-card">
+                <input type="checkbox" name="cheese" value="ricotta" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="ricotta"></span>
+                  <span class="ingredient-name">Ricotta</span>
+                </span>
+              </label>
+            </div>
+
+            <h4 class="form-subtitle">
+              Toppings
+              <span class="topping-counter"><span id="topping-count">0</span> / 6 selected</span>
+            </h4>
+            <div class="ingredient-grid topping-options" id="topping-grid">
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="sausage" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="sausage"></span>
+                  <span class="ingredient-name">Sausage</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="pepperoni" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="pepperoni"></span>
+                  <span class="ingredient-name">Pepperoni</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="onions" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="onions"></span>
+                  <span class="ingredient-name">Onions</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="olives" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="olives"></span>
+                  <span class="ingredient-name">Olives</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="green-bell-pepper" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="green-bell-pepper"></span>
+                  <span class="ingredient-name">Green Pepper</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="red-bell-pepper" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="red-bell-pepper"></span>
+                  <span class="ingredient-name">Red Pepper</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="bacon" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="bacon"></span>
+                  <span class="ingredient-name">Bacon</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="ham" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="ham"></span>
+                  <span class="ingredient-name">Ham</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="pineapple" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="pineapple"></span>
+                  <span class="ingredient-name">Pineapple</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="mushrooms" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="mushrooms"></span>
+                  <span class="ingredient-name">Mushrooms</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="grilled-chicken" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="grilled-chicken"></span>
+                  <span class="ingredient-name">Chicken</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="spinach" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="spinach"></span>
+                  <span class="ingredient-name">Spinach</span>
+                </span>
+              </label>
+              <label class="ingredient-card topping-card">
+                <input type="checkbox" name="topping" value="jalapenos" />
+                <span class="ingredient-card-inner">
+                  <span class="food-icon" data-food-icon="jalapenos"></span>
+                  <span class="ingredient-name">Jalapeños</span>
+                </span>
+              </label>
+            </div>
+            <p class="topping-limit-msg" id="topping-limit-msg" hidden>You've reached the maximum of 6 toppings. Deselect one to choose another.</p>
+
+            <div class="form-group">
+              <label for="notes">Special Notes <span class="optional">(optional)</span></label>
+              <textarea id="notes" name="notes" rows="3" placeholder="Allergies, gate codes, party theme ideas..."></textarea>
+            </div>
+
+            <div class="form-nav-buttons">
+              <button type="button" class="btn btn-secondary prev-step">← Back</button>
+              <button type="button" class="btn btn-primary next-step">Review Booking →</button>
+            </div>
+          </div>
+
+          <!-- Step 3: Review -->
+          <div class="form-panel" data-panel="3">
+            <h3 class="form-panel-title">Review Your Booking</h3>
+            <div class="summary-card" id="booking-summary"></div>
+            <div class="form-nav-buttons">
+              <button type="button" class="btn btn-secondary prev-step">← Edit</button>
+              <button type="button" class="btn btn-primary next-step">Continue to Payment →</button>
+            </div>
+          </div>
+
+          <!-- Step 4: Payment -->
+          <div class="form-panel" data-panel="4">
+            <h3 class="form-panel-title">Secure Payment</h3>
+            <p class="form-hint">Choose how you'd like to pay. Your confirmation email will be sent right after.</p>
+
+            <div class="payment-total-bar">
+              <span>Total due today</span>
+              <strong id="payment-total">$0</strong>
+            </div>
+
+            <div class="payment-methods">
+              <label class="payment-method-card">
+                <input type="radio" name="payment-method" value="stripe" checked />
+                <span class="payment-method-inner">
+                  <span class="payment-logo payment-logo--stripe">Stripe</span>
+                  <span class="payment-desc">Credit or debit card</span>
+                </span>
+              </label>
+              <label class="payment-method-card">
+                <input type="radio" name="payment-method" value="paypal" />
+                <span class="payment-method-inner">
+                  <span class="payment-logo payment-logo--paypal">PayPal</span>
+                  <span class="payment-desc">Pay with your PayPal account</span>
+                </span>
+              </label>
+              <label class="payment-method-card">
+                <input type="radio" name="payment-method" value="klarna" />
+                <span class="payment-method-inner">
+                  <span class="payment-logo payment-logo--klarna">Klarna</span>
+                  <span class="payment-desc">Pay in 4 interest-free installments</span>
+                </span>
+              </label>
+            </div>
+
+            <div id="payment-panel-stripe" class="payment-panel active">
+              <div id="stripe-card-element" class="stripe-element"></div>
+              <p class="payment-note">Powered by Stripe. Use test card <code>4242 4242 4242 4242</code> in demo mode.</p>
+            </div>
+            <div id="payment-panel-paypal" class="payment-panel">
+              <div id="paypal-button-container"></div>
+              <p class="payment-note">You'll be redirected to PayPal to complete payment securely.</p>
+            </div>
+            <div id="payment-panel-klarna" class="payment-panel">
+              <div class="klarna-info">
+                <span class="food-icon klarna-bonus-icon" data-food-icon="garlic-knots"></span>
+                <p>Split your party total into 4 easy payments with Klarna — no interest, no hassle.</p>
+              </div>
+              <button type="button" class="btn btn-outline" id="klarna-pay-btn">Pay with Klarna</button>
+            </div>
+
+            <p class="payment-secure">🔒 Payments are encrypted and secure</p>
+
+            <div class="form-nav-buttons">
+              <button type="button" class="btn btn-secondary prev-step">← Back</button>
+              <button type="submit" class="btn btn-primary" id="submit-payment">
+                <span class="submit-text">Pay & Book Party 🎉</span>
+                <span class="submit-loading" hidden>Processing...</span>
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <!-- Success message -->
+        <div id="booking-success" class="booking-success" hidden>
+          <div class="success-icon">🎂</div>
+          <h3>You're All Booked!</h3>
+          <p id="success-message">Thank you for choosing Pizza Buffet. A confirmation email has been sent to your inbox!</p>
+          <p class="success-ref">Reference: <strong id="booking-ref"></strong></p>
+          <p class="success-payment" id="success-payment-method" hidden></p>
+          <button type="button" class="btn btn-primary" id="book-another">Book Another Party</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-icon">🍕</span>
+        <span class="logo-text">Pizza Buffet</span>
+        <p>Making birthday memories, one pizza at a time.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#deals">Local Deals</a></li>
+          <li><a href="#book">Book Now</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Get in Touch</h4>
+        <p>hello@pizzabuffet.com</p>
+        <p>(555) PIZZA-00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Pizza Buffet. Made with 💕 for party people everywhere.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="food-icons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="script.js"></script>
+</body>
+</html>
